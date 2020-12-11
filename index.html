@@ -18,7 +18,8 @@
     <title>NewsGrid | Latest News</title>
 </head>
 
-<body>
+<body onload="preloader()">
+    <div id="preloader"></div>
     <nav id="main-nav">
         <div class="container">
             <img src="./image_resources/logo.png" class="logo" alt="">
@@ -173,6 +174,14 @@
         </div>
 
     </footer>
+    <!-- Preloader -->
+    <script>
+        var loader = document.getElementById('preloader');
+
+        function preloader() {
+            loader.style.display = "none";
+        }
+    </script>
 </body>
 
 </html>
