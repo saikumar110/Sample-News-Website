@@ -9,7 +9,7 @@ News Website Sample-Template
 <br><br>
 ### Links
 
- - (https://heuristic-neumann-bf61fa.netlify.app/)
+ - (https://newsgrid-website2104.netlify.app/)
 
 
 
