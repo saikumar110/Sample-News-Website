@@ -2,7 +2,7 @@
 News Website Sample-Template
 
 
-![Benjamin Bannekat](https://github.com/saikumar110/Images_of_projects/blob/main/screencapture-heuristic-neumann-bf61fa-netlify-app-2020-12-01-18_17_45.png?raw=true).
+![Benjamin Bannekat](https://user-images.githubusercontent.com/59998576/101882578-15c42a80-3bbc-11eb-8f31-4d46a422ea77.png).
 
 
 
