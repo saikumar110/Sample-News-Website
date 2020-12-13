@@ -19,15 +19,29 @@
 </head>
 
 <body onload="preloader()">
+    <!-- Preloader -->
     <div id="preloader"></div>
+    <!-- News-Letter -->
+    <div id="news-letter" style="display: none;">
+        <div id="news-letter-content">
+            <h1 class="news-heading"> Subscribe To Get Latest News </h1>
+            <form action="#">
+                <input type="email" placeholder="user@gmail.com">
+                <br>
+                <button id="subscribe" class="subscribe">Subscribe</button>
+                <button id="no-thanks" class="subscribe">No Thanks</button>
+            </form>
+        </div>
+    </div>
+
     <nav id="main-nav">
         <div class="container">
             <img src="./image_resources/logo.png" class="logo" alt="">
             <div class="social">
-                <a href="http://facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
-                <a href="http://twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
-                <a href="http://instagram.com"><i class="fab fa-youtube fa-2x"></i></a>
-                <a href="http://youtube.com"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://instagram.com"><i class="fab fa-youtube fa-2x"></i></a>
+                <a href="https://youtube.com"><i class="fab fa-instagram fa-2x"></i></a>
             </div>
             <ul>
                 <li>
@@ -175,12 +189,26 @@
 
     </footer>
     <!-- Preloader -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         var loader = document.getElementById('preloader');
 
         function preloader() {
             loader.style.display = "none";
         }
+
+        /* ---News-Letter */
+        $(document).ready(function() {
+            setTimeout(function() {
+                $('#news-letter').css('display', 'block');
+            }, 5000);
+        });
+        $('#subscribe').click(function() {
+            $('#news-letter').css('display', 'none');
+        });
+        $('#no-thanks').click(function() {
+            $('#news-letter').css('display', 'none');
+        });
     </script>
 </body>
 
